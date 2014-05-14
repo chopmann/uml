@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="uml" version="3">
+  <DEPS>
+    <ID name="uml" mc="Package" uid="d895a685-f118-459c-8ba4-e0230e9e12f0"/>
+    <COMPID name="Benutzer" mc="Actor" uid="b38e1187-8af9-4e4c-9b6c-8a2c6465e2fd"/>
+    <COMPID name="gram1" mc="UseCaseDiagram" uid="1a3881ab-f611-4980-9826-e7cc2c47c58b"/>
+    <COMPID name="overview diagram" mc="ClassDiagram" uid="2f834df1-cdea-4b55-bd1a-8f77e7a73175"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="uml" mc="Package" uid="d895a685-f118-459c-8ba4-e0230e9e12f0"/>
+    <PID name="UML" mc="Project" uid="f711a0ba-a1bf-4d2f-815b-4ab1ddefe548"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[uml]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Benutzer" mc="Actor" uid="b38e1187-8af9-4e4c-9b6c-8a2c6465e2fd"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="overview diagram" mc="ClassDiagram" uid="2f834df1-cdea-4b55-bd1a-8f77e7a73175"/>
+        <COMPID name="gram1" mc="UseCaseDiagram" uid="1a3881ab-f611-4980-9826-e7cc2c47c58b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

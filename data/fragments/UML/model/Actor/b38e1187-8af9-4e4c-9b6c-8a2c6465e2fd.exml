@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Benutzer" version="3">
+  <DEPS>
+    <ID name="Benutzer" mc="Actor" uid="b38e1187-8af9-4e4c-9b6c-8a2c6465e2fd"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Benutzer" mc="Actor" uid="b38e1187-8af9-4e4c-9b6c-8a2c6465e2fd"/>
+    <PID name="uml" mc="Package" uid="d895a685-f118-459c-8ba4-e0230e9e12f0"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Benutzer]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

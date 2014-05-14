@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UML" version="3">
+  <DEPS>
+    <ID name="UML" mc="PropertyContainer" uid="82ff9cc8-9365-43d2-98c6-3c6ece792bdc"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UML" mc="PropertyContainer" uid="82ff9cc8-9365-43d2-98c6-3c6ece792bdc"/>
+    <PID name="UML" mc="AnalystProject" uid="4294cad7-5979-422b-8acf-720a6867226d"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[UML]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>
