@@ -2,9 +2,39 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="uml" version="3">
   <DEPS>
     <ID name="uml" mc="Package" uid="d895a685-f118-459c-8ba4-e0230e9e12f0"/>
-    <COMPID name="Benutzer" mc="Actor" uid="b38e1187-8af9-4e4c-9b6c-8a2c6465e2fd"/>
+    <COMPID name="Analyst" mc="Actor" uid="12ffddf3-b825-4af7-9d57-ef2375da563e"/>
+    <COMPID name="Anfrage bearbeiten" mc="UseCase" uid="f3ffa1c3-98e5-457e-95e0-9a660dc01b2f"/>
+    <COMPID name="Anfrage entgegennehmen" mc="UseCase" uid="a839f4b6-11ba-4f39-82a2-0fa8ea6edd4e"/>
+    <COMPID name="Anfrage erstellen" mc="UseCase" uid="9de492e5-1a66-4545-b55c-111c68a08244"/>
+    <COMPID name="Auf Bestätigung des Kunden warten" mc="UseCase" uid="18c80fe5-6c43-4a07-859a-1af637106e98"/>
+    <COMPID name="Auftrag analysieren" mc="UseCase" uid="4ebc3ee8-e62c-454f-b4d0-2b1aa66510c5"/>
+    <COMPID name="Auftrag ändern/bestätigen" mc="UseCase" uid="41e9a582-4293-4c65-b884-80fb2f73d59b"/>
+    <COMPID name="Auftragsänderrungen entgegennehmen" mc="UseCase" uid="db7ae7b4-d5c5-4740-943d-000b3e61a8b1"/>
+    <COMPID name="Auftragsübersicht an Kunden kommunizieren" mc="UseCase" uid="0aebd8b3-9257-4ac1-bc66-c7567f1fbff2"/>
+    <COMPID name="Dienstleister" mc="Actor" uid="9e0763f0-57bb-4e81-8eba-cc74dc7fb0f4"/>
+    <COMPID name="Dienstleister auswählen" mc="UseCase" uid="7f4e13d3-ce1c-4902-bbae-80ea43bd012a"/>
+    <COMPID name="Dienstleister liste einsehen und kontaktieren" mc="UseCase" uid="ea9f8439-8d0f-47c7-944a-d5f4a13278b3"/>
+    <COMPID name="Dienstleistungsübersicht" mc="UseCase" uid="0fddad6b-9ad3-4b39-9159-8cd9fb921617"/>
+    <COMPID name="Empfangsbestätigung" mc="UseCase" uid="191a401d-70f7-4340-92ab-8b7ec054ccf0"/>
+    <COMPID name="Equipment auf Verfügbarkeit prüfen" mc="UseCase" uid="abba6907-5f7a-4235-b3c7-3f31e48f5de9"/>
+    <COMPID name="Erneute Kommunikatikon nach Timeout" mc="UseCase" uid="3a91d694-a0d5-4a62-8981-9b58b2fd44ec"/>
+    <COMPID name="Kontaktierung der Dienstleister" mc="UseCase" uid="f9531b0c-c1b1-4765-bc62-bc0b02d91462"/>
+    <COMPID name="Kostenrechnung erstellen" mc="UseCase" uid="27e1eb89-e3e8-4ba6-b84e-4c0fea8e2c3e"/>
+    <COMPID name="Kunde" mc="Actor" uid="b38e1187-8af9-4e4c-9b6c-8a2c6465e2fd"/>
+    <COMPID name="Kundenübersicht erstellen" mc="UseCase" uid="186606e9-bc72-4a27-8bd0-677cba9b7289"/>
+    <COMPID name="Mitarbeiter" mc="Actor" uid="03b9d9a4-bf93-4a86-b27b-3a2bbd80ca76"/>
+    <COMPID name="Personentransport prüfen" mc="UseCase" uid="71aea0bd-e6bf-438f-bee7-c3964345fc28"/>
+    <COMPID name="Preisliste zur Verfügung stellen" mc="UseCase" uid="693a2852-4e56-4093-ac34-80dd06029220"/>
+    <COMPID name="Prüfen ob Räume verfügbar für Anzahl der Personen und ausgewähltem Datum" mc="UseCase" uid="9cdfe791-d8ca-434a-9ad4-b6915152f02b"/>
+    <COMPID name="Standortmöglichkeiten prüfen" mc="UseCase" uid="453346ba-20e6-4502-a8c7-07573eed9c82"/>
+    <COMPID name="Termine vereinbaren" mc="UseCase" uid="25a465df-0aca-4aa7-a497-71d1c8e81b58"/>
+    <COMPID name="Verfügbarkeitsliste liefern" mc="UseCase" uid="c2e733a1-02f2-498c-8899-76c24abc3145"/>
+    <COMPID name="Worst-Case bearbeitung" mc="UseCase" uid="4bb0f76f-6a52-44c3-95ba-76805ab58448"/>
+    <COMPID name="Zeitplan erstellen" mc="UseCase" uid="8138d554-3328-49bf-8d67-b0f97bbc7ad3"/>
+    <COMPID name="an Analysten weiterleiten" mc="UseCase" uid="49c9751a-9af6-4f74-a676-96f6a9e3cec6"/>
     <COMPID name="gram1" mc="UseCaseDiagram" uid="1a3881ab-f611-4980-9826-e7cc2c47c58b"/>
     <COMPID name="overview diagram" mc="ClassDiagram" uid="2f834df1-cdea-4b55-bd1a-8f77e7a73175"/>
+    <COMPID name="zusätzliche Dienstleistungen prüfen" mc="UseCase" uid="b3d6850a-59c5-4176-81af-312ec242bc23"/>
   </DEPS>
   <OBJECT>
     <ID name="uml" mc="Package" uid="d895a685-f118-459c-8ba4-e0230e9e12f0"/>
@@ -20,7 +50,37 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Benutzer" mc="Actor" uid="b38e1187-8af9-4e4c-9b6c-8a2c6465e2fd"/>
+        <COMPID name="Kunde" mc="Actor" uid="b38e1187-8af9-4e4c-9b6c-8a2c6465e2fd"/>
+        <COMPID name="Mitarbeiter" mc="Actor" uid="03b9d9a4-bf93-4a86-b27b-3a2bbd80ca76"/>
+        <COMPID name="Analyst" mc="Actor" uid="12ffddf3-b825-4af7-9d57-ef2375da563e"/>
+        <COMPID name="Dienstleister" mc="Actor" uid="9e0763f0-57bb-4e81-8eba-cc74dc7fb0f4"/>
+        <COMPID name="Anfrage erstellen" mc="UseCase" uid="9de492e5-1a66-4545-b55c-111c68a08244"/>
+        <COMPID name="Anfrage entgegennehmen" mc="UseCase" uid="a839f4b6-11ba-4f39-82a2-0fa8ea6edd4e"/>
+        <COMPID name="Empfangsbestätigung" mc="UseCase" uid="191a401d-70f7-4340-92ab-8b7ec054ccf0"/>
+        <COMPID name="Anfrage bearbeiten" mc="UseCase" uid="f3ffa1c3-98e5-457e-95e0-9a660dc01b2f"/>
+        <COMPID name="an Analysten weiterleiten" mc="UseCase" uid="49c9751a-9af6-4f74-a676-96f6a9e3cec6"/>
+        <COMPID name="Standortmöglichkeiten prüfen" mc="UseCase" uid="453346ba-20e6-4502-a8c7-07573eed9c82"/>
+        <COMPID name="Prüfen ob Räume verfügbar für Anzahl der Personen und ausgewähltem Datum" mc="UseCase" uid="9cdfe791-d8ca-434a-9ad4-b6915152f02b"/>
+        <COMPID name="Equipment auf Verfügbarkeit prüfen" mc="UseCase" uid="abba6907-5f7a-4235-b3c7-3f31e48f5de9"/>
+        <COMPID name="zusätzliche Dienstleistungen prüfen" mc="UseCase" uid="b3d6850a-59c5-4176-81af-312ec242bc23"/>
+        <COMPID name="Personentransport prüfen" mc="UseCase" uid="71aea0bd-e6bf-438f-bee7-c3964345fc28"/>
+        <COMPID name="Dienstleister auswählen" mc="UseCase" uid="7f4e13d3-ce1c-4902-bbae-80ea43bd012a"/>
+        <COMPID name="Kundenübersicht erstellen" mc="UseCase" uid="186606e9-bc72-4a27-8bd0-677cba9b7289"/>
+        <COMPID name="Kostenrechnung erstellen" mc="UseCase" uid="27e1eb89-e3e8-4ba6-b84e-4c0fea8e2c3e"/>
+        <COMPID name="Zeitplan erstellen" mc="UseCase" uid="8138d554-3328-49bf-8d67-b0f97bbc7ad3"/>
+        <COMPID name="Auftragsübersicht an Kunden kommunizieren" mc="UseCase" uid="0aebd8b3-9257-4ac1-bc66-c7567f1fbff2"/>
+        <COMPID name="Auf Bestätigung des Kunden warten" mc="UseCase" uid="18c80fe5-6c43-4a07-859a-1af637106e98"/>
+        <COMPID name="Auftragsänderrungen entgegennehmen" mc="UseCase" uid="db7ae7b4-d5c5-4740-943d-000b3e61a8b1"/>
+        <COMPID name="Auftrag analysieren" mc="UseCase" uid="4ebc3ee8-e62c-454f-b4d0-2b1aa66510c5"/>
+        <COMPID name="Auftrag ändern/bestätigen" mc="UseCase" uid="41e9a582-4293-4c65-b884-80fb2f73d59b"/>
+        <COMPID name="Erneute Kommunikatikon nach Timeout" mc="UseCase" uid="3a91d694-a0d5-4a62-8981-9b58b2fd44ec"/>
+        <COMPID name="Kontaktierung der Dienstleister" mc="UseCase" uid="f9531b0c-c1b1-4765-bc62-bc0b02d91462"/>
+        <COMPID name="Dienstleister liste einsehen und kontaktieren" mc="UseCase" uid="ea9f8439-8d0f-47c7-944a-d5f4a13278b3"/>
+        <COMPID name="Termine vereinbaren" mc="UseCase" uid="25a465df-0aca-4aa7-a497-71d1c8e81b58"/>
+        <COMPID name="Verfügbarkeitsliste liefern" mc="UseCase" uid="c2e733a1-02f2-498c-8899-76c24abc3145"/>
+        <COMPID name="Dienstleistungsübersicht" mc="UseCase" uid="0fddad6b-9ad3-4b39-9159-8cd9fb921617"/>
+        <COMPID name="Preisliste zur Verfügung stellen" mc="UseCase" uid="693a2852-4e56-4093-ac34-80dd06029220"/>
+        <COMPID name="Worst-Case bearbeitung" mc="UseCase" uid="4bb0f76f-6a52-44c3-95ba-76805ab58448"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="overview diagram" mc="ClassDiagram" uid="2f834df1-cdea-4b55-bd1a-8f77e7a73175"/>
