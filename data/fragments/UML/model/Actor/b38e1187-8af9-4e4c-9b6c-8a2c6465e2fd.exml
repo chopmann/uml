@@ -4,10 +4,12 @@
     <ID name="Kunde" mc="Actor" uid="b38e1187-8af9-4e4c-9b6c-8a2c6465e2fd"/>
     <EXTID name="Anfrage erstellen" mc="UseCase" uid="9de492e5-1a66-4545-b55c-111c68a08244"/>
     <EXTID name="Auftrag ändern/bestätigen" mc="UseCase" uid="41e9a582-4293-4c65-b884-80fb2f73d59b"/>
+    <FOREIGNID name="ModelComponentElementAlias" mc="Stereotype" uid="3254be34-c7d8-4018-8a68-5de65c30b773"/>
+    <FOREIGNID name="UML2ExtensionEnd" mc="Stereotype" uid="770df309-5d0c-11df-a996-001302895b2b"/>
   </DEPS>
   <OBJECT>
     <ID name="Kunde" mc="Actor" uid="b38e1187-8af9-4e4c-9b6c-8a2c6465e2fd"/>
-    <PID name="uml" mc="Package" uid="d895a685-f118-459c-8ba4-e0230e9e12f0"/>
+    <PID name="UseCase" mc="Package" uid="9605209e-c102-4dcf-b724-4fafdf629581"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
@@ -209,6 +211,10 @@
             <COMP relation="Association">
               <COMPID name="" mc="Association" uid="01cfd988-b976-462f-a0a8-d43cabcfec17"/>
             </COMP>
+            <LINK relation="Extension">
+              <FOREIGNID name="ModelComponentElementAlias" mc="Stereotype" uid="3254be34-c7d8-4018-8a68-5de65c30b773"/>
+              <FOREIGNID name="UML2ExtensionEnd" mc="Stereotype" uid="770df309-5d0c-11df-a996-001302895b2b"/>
+            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
